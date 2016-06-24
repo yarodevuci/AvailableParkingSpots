@@ -31,7 +31,6 @@
 		5BF339E81CD04CC00055CF87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF339E61CD04CC00055CF87 /* Main.storyboard */; };
 		5BF339EA1CD04CC00055CF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF339E91CD04CC00055CF87 /* Assets.xcassets */; };
 		5BF339ED1CD04CC00055CF87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF339EB1CD04CC00055CF87 /* LaunchScreen.storyboard */; };
-		5C7C8C7B99F8C3C97FE4013C /* Pods_URBN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACCC4719CB800107BAD438D /* Pods_URBN.framework */; };
 		7CD0B6C9A0964B4BD04799F1 /* Pods_Parking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BDD494FDB86AD4973832B9 /* Pods_Parking.framework */; };
 		C4D5512C1CF14E6D00FE7FEE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D5512B1CF14E6D00FE7FEE /* MapViewController.swift */; };
 		C4D5512E1CF1577000FE7FEE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D5512D1CF1577000FE7FEE /* MapKit.framework */; };
@@ -50,11 +49,11 @@
 		5B2FEBF81CD1E6F20010D238 /* LogInDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInDisplay.swift; sourceTree = "<group>"; };
 		5B2FEBFB1CD1EA860010D238 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		5B2FEBFD1CD1EB470010D238 /* JSSAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSSAlertView.swift; sourceTree = "<group>"; };
-		5B50A1441CD0AB2600A33174 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Cautionizer/Bolts.framework; sourceTree = "<group>"; };
-		5B50A1451CD0AB2600A33174 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Cautionizer/Parse.framework; sourceTree = "<group>"; };
-		5B50A1471CD0AB2600A33174 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = Cautionizer/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
-		5B50A1481CD0AB2600A33174 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseTwitterUtils.framework; path = Cautionizer/ParseTwitterUtils.framework; sourceTree = "<group>"; };
-		5B50A1491CD0AB2600A33174 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = Cautionizer/ParseUI.framework; sourceTree = "<group>"; };
+		5B50A1441CD0AB2600A33174 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Files/Bolts.framework; sourceTree = "<group>"; };
+		5B50A1451CD0AB2600A33174 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Files/Parse.framework; sourceTree = "<group>"; };
+		5B50A1471CD0AB2600A33174 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = Files/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		5B50A1481CD0AB2600A33174 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseTwitterUtils.framework; path = Files/ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		5B50A1491CD0AB2600A33174 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = Files/ParseUI.framework; sourceTree = "<group>"; };
 		5B50A1501CD0AB3800A33174 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		5B50A1521CD0AB4300A33174 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5B50A1541CD0AB4C00A33174 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +63,7 @@
 		5B50A15C1CD0AB7200A33174 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5B50A15E1CD0AB7E00A33174 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5B50A1601CD0AB8A00A33174 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		5BA8DE7B1CD1F5EC00715F1E /* Cautionizer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cautionizer-Bridging-Header.h"; sourceTree = "<group>"; };
+		5BA8DE7B1CD1F5EC00715F1E /* Files-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Files-Bridging-Header.h"; sourceTree = "<group>"; };
 		5BA8DE7C1CD1F5EC00715F1E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		5BA8DE7D1CD1F5EC00715F1E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		5BA8DE7F1CD1F79700715F1E /* SignUpDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpDisplay.swift; sourceTree = "<group>"; };
@@ -117,7 +116,6 @@
 				5B50A14D1CD0AB2600A33174 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				5B50A14E1CD0AB2600A33174 /* ParseTwitterUtils.framework in Frameworks */,
 				5B50A14F1CD0AB2600A33174 /* ParseUI.framework in Frameworks */,
-				5C7C8C7B99F8C3C97FE4013C /* Pods_URBN.framework in Frameworks */,
 				7CD0B6C9A0964B4BD04799F1 /* Pods_Parking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +130,7 @@
 				5BA8DE7D1CD1F5EC00715F1E /* MBProgressHUD.m */,
 				5B2FEBFB1CD1EA860010D238 /* Reachability.swift */,
 				5B2FEBFD1CD1EB470010D238 /* JSSAlertView.swift */,
-				5BA8DE7B1CD1F5EC00715F1E /* Cautionizer-Bridging-Header.h */,
+				5BA8DE7B1CD1F5EC00715F1E /* Files-Bridging-Header.h */,
 			);
 			name = ExtraDesignClasses;
 			sourceTree = "<group>";
@@ -202,7 +200,7 @@
 				5BF339E91CD04CC00055CF87 /* Assets.xcassets */,
 			);
 			name = Parking;
-			path = Cautionizer;
+			path = Files;
 			sourceTree = "<group>";
 		};
 		A2BEA9296361B2603B104F82 /* Pods */ = {
@@ -235,7 +233,7 @@
 			dependencies = (
 			);
 			name = Parking;
-			productName = Cautionizer;
+			productName = Files;
 			productReference = 5BF339DF1CD04CC00055CF87 /* Parking.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -471,17 +469,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Cautionizer",
+					"$(PROJECT_DIR)/Files",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = Cautionizer/Info.plist;
+				INFOPLIST_FILE = Files/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yaro-inc.Parking";
 				PRODUCT_NAME = Parking;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Cautionizer/Cautionizer-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Files/Files-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -496,17 +494,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Cautionizer",
+					"$(PROJECT_DIR)/Files",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = Cautionizer/Info.plist;
+				INFOPLIST_FILE = Files/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yaro-inc.Parking";
 				PRODUCT_NAME = Parking;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Cautionizer/Cautionizer-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Files/Files-Bridging-Header.h";
 			};
 			name = Release;
 		};
